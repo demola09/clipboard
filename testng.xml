@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" parallel="false"
+	preserve-order="true">
+	<test name="Test1">
+		<classes>
+			<class name="actions.PassportCreatAccountTestSuite" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<classes>
+			<class name="actions.AmazonShoppingTestSuite" />
+		</classes>
+	</test> 
+	<test name="Test3">
+		<classes>
+			<class name="actions.PassportForgotPasswordTestSuite" />
+		</classes>
+	</test> 
+	<test name="Test4">
+		<classes>
+			<class name="actions.PassportAdminTestSuite" />
+		</classes>
+	</test> 
+	<test name="Test5">
+		<classes>
+			<class name="actions.Passport2FATestSuite" />
+		</classes>
+	</test> 
+	
+	
+	
+	
+</suite> <!-- Suite -->
+<!-- <class name="actions.LoginTestSuite" /> <class name="actions.BuyAirtimeTestSuite" 
+	/> <class name="actions.SavedPaymentSuite" /> <class name="actions.HomeScreenTestSuite" 
+	/> <class name="actions.RecurringTransactionFlow" /> -->
